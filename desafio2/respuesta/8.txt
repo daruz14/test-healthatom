@@ -1,0 +1,5 @@
+La incongruencias se pueden generar al no existir una dependencia entre fechas de avistamientos y muertes.
+Esto se puede deber a que no se revisa que se cumpla el que un avistamiento siempre tenga una fecha <= a la
+de una muerte del titan. De la misma forma no se revisa que se cumpla que la fecha de muerte sea >= a la
+fecha de avistamiento. Si no existe dicha revision, este error puede suceder por cada error al introducir
+los datos. También se podría agregar más información tal como se pone el caso del desafío 3.
